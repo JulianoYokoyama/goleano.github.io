@@ -1,0 +1,96 @@
+html {
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+body {
+	background: lightblue;
+	background-image: url("imagem/teste.png");
+}
+
+
+*{ margin: 0;
+	 padding: 0;
+	  box-sizing: border-box; 
+	}
+
+.menu {
+	 background: white; 
+	 padding: 20px 0; 
+}
+
+.button {
+	display: inline;
+	margin: 0 20px;
+	background: white;
+	top: 0;
+	color: green;
+	border: 0;
+	cursor: pointer;
+	font-size: 20px;
+}
+
+.modalLogin {
+	display:none;
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+.modalCadastro {
+	display:none;
+	position: fixed;
+	z-index: 2;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	overflow: auto;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content-Login {
+	margin: 10% auto;	;
+	width: 400px;
+	height: 160px;
+	box-shadow: 0 5px 8px 0 rgba(0, 0 ,0, 0.2), 0 7px 20px 0 rgba(0, 0 ,0, 0.17);
+}
+.modal-content-Cadastro {
+	margin: 10% auto;	;
+	width: 420px;
+	height: 360px;
+	box-shadow: 0 5px 8px 0 rgba(0, 0 ,0, 0.2), 0 7px 20px 0 rgba(0, 0 ,0, 0.17);
+}
+
+.modal-header h2 {
+	margin: 1% 10%;
+}
+
+.modal-header {
+	background : blue;
+	padding: 15px;
+	color: #fff;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.modal-body {
+	padding: 10px 20px;
+	background: #fff;
+	
+}
+
+.close {
+	color: #ccc;
+	float: right;
+	font-size: 30px;
+	cursor: pointer;
+}
+.close2 {
+	color: #ccc;
+	float: right;
+	font-size: 30px;
+	cursor: pointer;
+}
